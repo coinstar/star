@@ -1,0 +1,17 @@
+Source: StarCoin
+Section: misc
+Priority: extra
+Maintainer: StarCoin <akira.takizawa@morningStarCoin.com>
+Build-Depends: debhelper (>= 5),
+	libminiupnpc-dev,
+	libdb++-dev,
+	libboost-system-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-thread-dev,
+	qt5-default, qttools5-dev-tools,
+	desktop-file-utils, 
+Standards-Version: 3.8.3
+Homepage: http://www.morningStarCoin.com/
+
+Package: StarCoin
+Architecture: i386 amd64
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: StarCoin Wallet
